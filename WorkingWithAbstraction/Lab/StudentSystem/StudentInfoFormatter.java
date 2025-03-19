@@ -1,4 +1,4 @@
-package src.main.java.WorkingWithAbstraction.Lab.StudentSystem;
+package WorkingWithAbstraction.Lab.StudentSystem;
 
 public class StudentInfoFormatter {
 
