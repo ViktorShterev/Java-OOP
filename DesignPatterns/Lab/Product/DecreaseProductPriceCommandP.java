@@ -1,3 +1,5 @@
+package DesignPatterns.Lab.Product;
+
 public class DecreaseProductPriceCommandP implements CommandP {
     private final ProductP product;
     private final int amount;

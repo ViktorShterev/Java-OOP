@@ -1,4 +1,4 @@
-package Prototype;
+package DesignPatterns.Lab.AllPatterns.Prototype;
 
 public class Book extends Item {
     private String author;

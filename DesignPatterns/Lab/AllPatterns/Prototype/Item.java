@@ -1,4 +1,4 @@
-package Prototype;
+package DesignPatterns.Lab.AllPatterns.Prototype;
 
 public abstract class Item implements MyCloneable<Item>, Cloneable {
     private String name;

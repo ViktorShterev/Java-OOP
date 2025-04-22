@@ -1,3 +1,5 @@
+package DesignPatterns.Lab.Product;
+
 public class ProductP {
     private String name;
     private int price;

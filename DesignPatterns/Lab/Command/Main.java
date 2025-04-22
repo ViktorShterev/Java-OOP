@@ -1,15 +1,17 @@
+package DesignPatterns.Lab.Command;
+
 public class Main {
     public static void main(String[] args) {
-        ModifyPriceP modifyPrice = new ModifyPriceP();
-        ProductP product = new ProductP("Phone",500);
+        ModifyPrice modifyPrice = new ModifyPrice();
+        Product product = new Product("Phone",500);
 
-        execute(modifyPrice, new IncreaseProductPriceCommandP(product, 100));
-        execute(modifyPrice, new IncreaseProductPriceCommandP(product, 50));
-        execute(modifyPrice, new DecreaseProductPriceCommandP(product, 25));
+        execute(modifyPrice, new IncreaseProductPriceCommand(product, 100));
+        execute(modifyPrice, new IncreaseProductPriceCommand(product, 50));
+        execute(modifyPrice, new DecreaseProductPriceCommand(product, 25));
 
         System.out.println(product);
     }
-    private static void execute(ModifyPriceP modifyPrice, CommandP productCommand){
+    private static void execute(ModifyPrice modifyPrice, Command productCommand){
         modifyPrice.setCommand(productCommand);
         modifyPrice.invoke();
     }

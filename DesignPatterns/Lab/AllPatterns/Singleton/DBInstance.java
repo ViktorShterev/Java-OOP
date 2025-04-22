@@ -1,4 +1,4 @@
-package Singleton;
+package DesignPatterns.Lab.AllPatterns.Singleton;
 
 public class DBInstance {
 

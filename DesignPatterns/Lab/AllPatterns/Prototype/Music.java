@@ -1,4 +1,4 @@
-package Prototype;
+package DesignPatterns.Lab.AllPatterns.Prototype;
 
 public class Music extends Item {
     private Double duration;

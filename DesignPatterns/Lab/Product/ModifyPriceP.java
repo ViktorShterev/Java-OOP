@@ -1,3 +1,5 @@
+package DesignPatterns.Lab.Product;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,8 +1,10 @@
-public class IncreaseProductPriceCommand implements CommandP {
-    private final ProductP product;
+package DesignPatterns.Lab.Command;
+
+public class IncreaseProductPriceCommand implements Command {
+    private final Product product;
     private final int amount;
 
-    public IncreaseProductPriceCommand(ProductP product, int amount){
+    public IncreaseProductPriceCommand(Product product, int amount){
         this.product = product;
         this.amount = amount;
     }

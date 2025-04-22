@@ -1,9 +1,9 @@
-package Builder;
+package DesignPatterns.Lab.AllPatterns.Builder;
 
 public class BuilderMain {
     public static void main(String[] args) {
 
-        LunchOrder order = LunchOrder.Builder.get()
+        Builder.LunchOrder order = Builder.LunchOrder.Builder.get()
                 .withBread("white bread")
                 .withMeat("Beef")
                 .withDrink("Beer")

@@ -1,9 +1,9 @@
-package Command;
+package DesignPatterns.Lab.AllPatterns.Command;
 
-public class LightOn implements Command {
-    private Lamp lamp;
+public class LightOn implements Command.Command {
+    private Command.Lamp lamp;
 
-    public LightOn(Lamp lamp) {
+    public LightOn(Command.Lamp lamp) {
         this.lamp = lamp;
     }
 

@@ -1,3 +1,5 @@
+package DesignPatterns.Lab.Product;
+
 public class MainP {
     public static void main(String[] args) {
         ModifyPriceP modifyPrice = new ModifyPriceP();

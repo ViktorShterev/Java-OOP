@@ -1,17 +1,17 @@
-package Command;
+package DesignPatterns.Lab.AllPatterns.Command;
 
 import java.util.List;
 
-public class TurnAllLightsOn implements Command {
-    private List<Lamp> lamps;
+public class TurnAllLightsOn implements Command.Command {
+    private List<Command.Lamp> lamps;
 
-    public TurnAllLightsOn(List<Lamp> lamps) {
+    public TurnAllLightsOn(List<Command.Lamp> lamps) {
         this.lamps = lamps;
     }
 
     @Override
     public void execute() {
-        for (Lamp lamp : lamps) {
+        for (Command.Lamp lamp : lamps) {
             lamp.on();
         }
     }

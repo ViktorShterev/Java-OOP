@@ -1,9 +1,9 @@
-package Command;
+package DesignPatterns.Lab.AllPatterns.Command;
 
-public class LightOff implements Command {
-    private Lamp lamp;
+public class LightOff implements Command.Command {
+    private Command.Lamp lamp;
 
-    public LightOff(Lamp lamp) {
+    public LightOff(Command.Lamp lamp) {
         this.lamp = lamp;
     }
 

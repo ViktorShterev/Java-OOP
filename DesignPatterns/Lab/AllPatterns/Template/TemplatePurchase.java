@@ -1,4 +1,4 @@
-package Template;
+package DesignPatterns.Lab.AllPatterns.Template;
 
 public abstract class TemplatePurchase {
 

@@ -1,13 +1,13 @@
-package Command;
+package DesignPatterns.Lab.AllPatterns.Command;
 
 import java.util.List;
 
 public class CommandMain {
     public static void main(String[] args) {
 
-        Lamp lampKitchen = new Lamp();
-        Lamp lampLivingRoom = new Lamp();
-        Lamp lampBedroom = new Lamp();
+        Command.Lamp lampKitchen = new Command.Lamp();
+        Command.Lamp lampLivingRoom = new Command.Lamp();
+        Command.Lamp lampBedroom = new Command.Lamp();
 
         TurnAllLightsOn allLightsOn = new TurnAllLightsOn(List.of(lampKitchen, lampLivingRoom, lampBedroom));
 

@@ -1,4 +1,4 @@
-package Prototype;
+package DesignPatterns.Lab.AllPatterns.Prototype;
 
 public class MainPrototype {
     public static void main(String[] args) {
